@@ -45,6 +45,7 @@ export async function GET(request: Request) {
 
     if (!chatThread) {
       return new ImageResponse(
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img width="1200" height="630" src="https://omniplex.ai/OGImage.png" alt="Omniplex" />,
         {
           width: 1200,

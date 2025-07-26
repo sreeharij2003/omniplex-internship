@@ -67,7 +67,7 @@ const SuccessPage = () => {
         </div>
         
         <div className={styles.testNote}>
-          <strong>Test Mode:</strong> This was a test payment using Stripe's test environment.
+          <strong>Test Mode:</strong> This was a test payment using Stripe&apos;s test environment.
           No real money was charged.
         </div>
       </div>
