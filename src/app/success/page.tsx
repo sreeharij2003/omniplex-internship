@@ -50,7 +50,7 @@ const SuccessPage = () => {
         )}
         
         <div className={styles.features}>
-          <h3>What's included in your Pro plan:</h3>
+          <h3>What&apos;s included in your Pro plan:</h3>
           <ul>
             <li>✓ Unlimited chat sessions</li>
             <li>✓ Priority support</li>

@@ -1,6 +1,6 @@
-import { initializeApp } from "firebase/app";
-import { getStorage } from "firebase/storage";
-import { getFirestore } from "firebase/firestore";
+import { FirebaseApp, initializeApp } from "firebase/app";
+import { Firestore, getFirestore } from "firebase/firestore";
+import { FirebaseStorage, getStorage } from "firebase/storage";
 
 // Firebase Config
 export const firebaseConfig = {
@@ -16,9 +16,9 @@ export const firebaseConfig = {
 // Check if Firebase config is properly set
 const isFirebaseConfigured = firebaseConfig.apiKey && firebaseConfig.projectId;
 
-let app = null;
-let db = null;
-let storage = null;
+let app: FirebaseApp | null = null;
+let db: Firestore | null = null;
+let storage: FirebaseStorage | null = null;
 
 if (isFirebaseConfigured) {
   try {
@@ -30,8 +30,8 @@ if (isFirebaseConfigured) {
   }
 }
 
-export { db, storage, isFirebaseConfigured };
+export { db, isFirebaseConfigured, storage };
 
-export const initializeFirebase = () => {
+export const initializeFirebase = (): FirebaseApp | null => {
   return app;
 };
