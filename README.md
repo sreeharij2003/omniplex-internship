@@ -1,9 +1,9 @@
 ![hero](Github.png)
 
 <p align="center">
-	<h1 align="center"><b>Omniplex</b></h1>
+	<h1 align="center"><b>Omniplex - Internship Assignment</b></h1>
 <p align="center">
-    Open-Source Perplexity
+    Open-Source Perplexity with Stripe Integration
     <br />
     <br />
     <a href="https://omniplex.ai">Website</a>
@@ -183,3 +183,11 @@ This project is licensed under the [AGPL-3.0 license](LICENSE).
 If you have any questions or suggestions, feel free to reach out to us at [Contact](https://bishalsaha.com/contact).
 
 Happy coding! 🚀
+
+## 🎯 Internship Assignment Features
+
+This version includes:
+- ✅ **Stripe Payment Integration** - Test payments with card `4242 4242 4242 4242`
+- ✅ **Success/Cancel Pages** - Complete payment flow
+- ✅ **Render Deployment Ready** - Production configuration included
+- ✅ **Environment Variables** - Secure API key management
