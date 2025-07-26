@@ -46,10 +46,12 @@ az webapp create --resource-group omniplex-rg --plan omniplex-plan --name omnipl
 
 ### Required Environment Variables:
 ```
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = pk_test_51RoSp13yvuI3HNhvvhjcMGVOS5tY4RaYTtnlNqubNNT7EsRAhasKoTXXkKMJAorsAk1ibBdkZU45e2Tq6SbGmpY300P9x1xsas
-STRIPE_SECRET_KEY = sk_test_51RoSp13yvuI3HNhvEAWy8AeB7ABZ4pNXgFPimE0O7Tv0LtLj8nRwAahim7wjPrMJNQz896KUVhX969fUQgEiEgEE00domyPuGj
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = pk_test_your_publishable_key_here
+STRIPE_SECRET_KEY = sk_test_your_secret_key_here
 NODE_ENV = production
 ```
+
+**Note**: Get your actual Stripe keys from https://dashboard.stripe.com/test/apikeys
 
 4. Click **"Save"** after adding all variables
 

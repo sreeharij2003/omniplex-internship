@@ -33,8 +33,8 @@ In Render dashboard, go to **Environment** tab and add:
 
 ### Required for Stripe:
 ```
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51RoSp13yvuI3HNhvvhjcMGVOS5tY4RaYTtnlNqubNNT7EsRAhasKoTXXkKMJAorsAk1ibBdkZU45e2Tq6SbGmpY300P9x1xsas
-STRIPE_SECRET_KEY=sk_test_51RoSp13yvuI3HNhvEAWy8AeB7ABZ4pNXgFPimE0O7Tv0LtLj8nRwAahim7wjPrMJNQz896KUVhX969fUQgEiEgEE00domyPuGj
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_publishable_key_here
+STRIPE_SECRET_KEY=sk_test_your_secret_key_here
 ```
 
 ### Optional (for full functionality):
